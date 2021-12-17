@@ -33,6 +33,6 @@ Once you have the project running locally you can [import](https://vercel.com/im
 
 Other option is to click on the button below to create a new repository that look exactly like this one, and sets it up and running on Vercel. 
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vuongddang/nextjs-tailwindcss-typescript-starter/tree/main)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/PatrickNiyogitare28/git-overview/tree/master)
 
 Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
