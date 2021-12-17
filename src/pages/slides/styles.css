@@ -1,0 +1,12 @@
+.introduction-container{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(#212121a4 20%, transparent 10%);
+    background-position: 0 0, 50px 50px;
+    background-size: 50px 50px;
+}
+.intro-content-container{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
