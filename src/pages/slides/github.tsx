@@ -11,7 +11,7 @@ const GithubSlide: React.FC = () => {
             <code className='font-extrabold'>Github</code> is a code hosting platform for version control and collaboration. It internally uses git but it simplifies the work because git is usually a command-line software while GitHub is a graphical user interface application(website, desktop app).
             </p>
             <a href='https://github.com' target="_blank">
-            <p className='hover:underline cursor-pointer mt-5' style={{color: '#5276f7'}}>https://github.com</p>
+            <p className='hover:underline cursor-pointer mt-5 font-extrabold' style={{color: '#5276f7'}}>https://github.com</p>
             </a>
         </div>
         

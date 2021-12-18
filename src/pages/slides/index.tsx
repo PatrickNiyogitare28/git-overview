@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { ISlide } from '../../interfaces/ISlide';
+import GitConceptsSlide from './common-concepts';
 import Definitions from './definitions';
+import GitUsesSlide from './git-uses';
 import GithubSlide from './github';
 import CodeHostingPlatform from './hosting-platforms';
 import TalkIntroduction from './introduction';
@@ -32,6 +34,14 @@ const slides: Array<ISlide> = [
   {
     index: 5,
     content: <GithubSlide/>
+  },
+  {
+    index: 6,
+    content: <GitConceptsSlide/>
+  },
+  {
+    index: 7,
+    content: <GitUsesSlide/>
   }
 ]
 if(typeof window !== 'undefined'){
