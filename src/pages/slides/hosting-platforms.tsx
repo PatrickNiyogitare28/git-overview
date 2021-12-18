@@ -1,5 +1,4 @@
 import React from 'react';
-import { IDefinitionsProps } from './IProps';
 import Image from 'next/image'
 
 export interface IPlatform{

@@ -1,6 +1,6 @@
 import React from 'react';
-import { IDefinitionsProps } from './IProps';
 import Image from 'next/image'
+import { IDefinitionsProps } from '../../interfaces/IPageProps';
 
 const Definitions: React.FC<IDefinitionsProps> = ({showDefinitions=false}) => {
     return (
