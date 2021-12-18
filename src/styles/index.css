@@ -5,9 +5,9 @@
 
 @import 'tailwindcss/utilities';
 
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:&family=Roboto&display=swap');
-
-*{
-    font-family: 'Oxygen', sans-serif;
-    font-family: 'Roboto', sans-serif;
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:&family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+body{
+    font-family: 'Oxygen', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
 }
