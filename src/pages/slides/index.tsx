@@ -42,10 +42,14 @@ const slides: Array<ISlide> = [
   },
   {
     index: 7,
-    content: <GitUsesSlide/>
+    content: <GitConceptsSlide showNext={true}/>
   },
   {
     index: 8,
+    content: <GitUsesSlide/>
+  },
+  {
+    index: 9,
     content: <Resources />
   },
 ]
