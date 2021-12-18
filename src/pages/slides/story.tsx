@@ -66,9 +66,10 @@ const triggerTypeWritter = () => {
     return (
         <>
         {triggerTypeWritter()}
-        <div className="flex justify-around w-screen h-screen items-center p-20">
+        <div className="flex justify-around w-screen h-screen items-center p-20 pt-1">
                 <Image src="/images/character.svg" height="500" width="500" draggable="false"/>
                 <div className="w-2/4 text-xl">
+                     <h1 className="text-6xl text-white mb-20 font-extrabold"><code>INTRODUCTION</code></h1>
                      <span
                             className="txt-rotate text-white text-2xl"
                             data-period="500"

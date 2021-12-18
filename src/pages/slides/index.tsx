@@ -7,6 +7,7 @@ import GithubSlide from './github';
 import CodeHostingPlatform from './hosting-platforms';
 import TalkIntroduction from './introduction';
 import StorySlide from './story';
+import Resources from './resources';
 
 const Slide: React.FC = () => {
 const [activeSlide, setActiveSlide] = useState<number>(0);
@@ -42,7 +43,11 @@ const slides: Array<ISlide> = [
   {
     index: 7,
     content: <GitUsesSlide/>
-  }
+  },
+  {
+    index: 8,
+    content: <Resources />
+  },
 ]
 if(typeof window !== 'undefined'){
     document.onkeydown = checkKey;
