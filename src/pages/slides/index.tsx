@@ -13,12 +13,16 @@ const slides: Array<ISlide> = [
   },
   {
       index: 1,
-      content: <TalkIntroduction />
+      content: <TalkIntroduction/>
   },
   {
       index: 2,
       content: <Definitions />
-  }
+  },
+  {
+    index: 3,
+    content: <Definitions showDefinitions={true}/>
+}
 ]
 if(typeof window !== 'undefined'){
     document.onkeydown = checkKey;

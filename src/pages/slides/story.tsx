@@ -67,10 +67,10 @@ const triggerTypeWritter = () => {
         <>
         {triggerTypeWritter()}
         <div className="flex justify-around w-screen h-screen items-center p-20">
-                <Image src="/images/character.svg" height="500" width="500" />
+                <Image src="/images/character.svg" height="500" width="500" draggable="false"/>
                 <div className="w-2/4 text-xl">
                      <span
-                            className="txt-rotate text-white"
+                            className="txt-rotate text-white text-2xl"
                             data-period="500"
                             data-rotate='["Last year, I was working on a project with a colleague and in order to share what we worked on either a feature we added or removed we had to share the files via slack so that our codes could stay updated. 
                             This was tiresome work and prone to many errors but it was because I did not know about GIT.
