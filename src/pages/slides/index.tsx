@@ -4,6 +4,7 @@ import Definitions from './definitions';
 import CodeHostingPlatform from './hosting-platforms';
 import TalkIntroduction from './introduction';
 import StorySlide from './story';
+import Resources from './resources';
 
 const Slide: React.FC = () => {
 const [activeSlide, setActiveSlide] = useState<number>(0);
@@ -27,7 +28,11 @@ const slides: Array<ISlide> = [
   {
     index: 4,
     content: <CodeHostingPlatform/>
-  }
+  },
+  {
+    index: 5,
+    content: <Resources />
+  },
 ]
 if(typeof window !== 'undefined'){
     document.onkeydown = checkKey;
