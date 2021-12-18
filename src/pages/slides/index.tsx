@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ISlide } from '../../interfaces/ISlide';
 import Definitions from './definitions';
+import CodeHostingPlatform from './hosting-platforms';
 import TalkIntroduction from './introduction';
 import StorySlide from './story';
 
@@ -22,7 +23,11 @@ const slides: Array<ISlide> = [
   {
     index: 3,
     content: <Definitions showDefinitions={true}/>
-}
+  },
+  {
+    index: 4,
+    content: <CodeHostingPlatform/>
+  }
 ]
 if(typeof window !== 'undefined'){
     document.onkeydown = checkKey;

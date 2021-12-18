@@ -9,9 +9,9 @@ const TalkIntroduction: React.FC = () => {
         <div className="intro-content-container">
            <div className="flex justify-around w-screen h-screen items-center flex-col">
              <Image draggable="false" src="/images/git-logo.png" alt="git" width="800" height="300"/>
-             <ul style={{width: '300px', display:'flex', justifyContent:'space-between'}}>
-                 <li className="text-white">Patrick NIYOGITARE</li>
-                 <li className="text-white">Pacis NKUBITO</li>
+             <ul style={{width: '400px', display:'flex', justifyContent:'space-between'}}>
+                 <li className="text-white text-center font-bold text-2xl">Patrick NIYOGITARE</li>
+                 <li className="text-white text-center font-bold text-2xl">Pacis NKUBITO</li>
              </ul>
            </div>
         </div>
