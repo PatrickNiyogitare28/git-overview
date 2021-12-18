@@ -74,7 +74,7 @@ const triggerTypeWritter = () => {
                             className="txt-rotate text-white text-2xl"
                             data-period="500"
                             data-rotate='["Last year, I was working on a project with a colleague and in order to share what we worked on either a feature we added or removed we had to share the files via slack so that our codes could stay updated. 
-                            This was tiresome work and prone to many errors but it was because I did not know about GIT.
+                            This was tiresome work and prone to many errors but it was because I did not know about GIT and most importantly Github.
                             "]'>
                             </span>
                 </div>
